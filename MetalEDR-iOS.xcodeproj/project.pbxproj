@@ -1,0 +1,373 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C67B88B3267576DE00CAF2D1 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C67B88B2267576DE00CAF2D1 /* AppDelegate.m */; };
+		C67B88B6267576DE00CAF2D1 /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C67B88B5267576DE00CAF2D1 /* SceneDelegate.m */; };
+		C67B88B9267576DE00CAF2D1 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C67B88B8267576DE00CAF2D1 /* ViewController.m */; };
+		C67B88BC267576DE00CAF2D1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C67B88BA267576DE00CAF2D1 /* Main.storyboard */; };
+		C67B88BE267576DF00CAF2D1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C67B88BD267576DF00CAF2D1 /* Assets.xcassets */; };
+		C67B88C1267576DF00CAF2D1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C67B88BF267576DF00CAF2D1 /* LaunchScreen.storyboard */; };
+		C67B88C4267576DF00CAF2D1 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C67B88C3267576DF00CAF2D1 /* main.m */; };
+		C6BCFF95267586FC00F791EF /* EDRImageShaders.metal in Sources */ = {isa = PBXBuildFile; fileRef = C6BCFF91267586FC00F791EF /* EDRImageShaders.metal */; };
+		C6BCFF96267586FC00F791EF /* EDRImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = C6BCFF93267586FC00F791EF /* EDRImageView.m */; };
+		C6BCFF982675874500F791EF /* GrayRampsHorizontal.exr in Resources */ = {isa = PBXBuildFile; fileRef = C6BCFF972675874500F791EF /* GrayRampsHorizontal.exr */; };
+		C6BCFF9B267587BF00F791EF /* EDRDisplayEnabler.m in Sources */ = {isa = PBXBuildFile; fileRef = C6BCFF9A267587BF00F791EF /* EDRDisplayEnabler.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		C67B88AE267576DE00CAF2D1 /* MetalEDR-iOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "MetalEDR-iOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C67B88B1267576DE00CAF2D1 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		C67B88B2267576DE00CAF2D1 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		C67B88B4267576DE00CAF2D1 /* SceneDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SceneDelegate.h; sourceTree = "<group>"; };
+		C67B88B5267576DE00CAF2D1 /* SceneDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SceneDelegate.m; sourceTree = "<group>"; };
+		C67B88B7267576DE00CAF2D1 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		C67B88B8267576DE00CAF2D1 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		C67B88BB267576DE00CAF2D1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		C67B88BD267576DF00CAF2D1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C67B88C0267576DF00CAF2D1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		C67B88C2267576DF00CAF2D1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C67B88C3267576DF00CAF2D1 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		C6BCFF91267586FC00F791EF /* EDRImageShaders.metal */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.metal; path = EDRImageShaders.metal; sourceTree = "<group>"; };
+		C6BCFF92267586FC00F791EF /* EDRImageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EDRImageView.h; sourceTree = "<group>"; };
+		C6BCFF93267586FC00F791EF /* EDRImageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EDRImageView.m; sourceTree = "<group>"; };
+		C6BCFF94267586FC00F791EF /* EDRImageShaderTypes.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EDRImageShaderTypes.h; sourceTree = "<group>"; };
+		C6BCFF972675874500F791EF /* GrayRampsHorizontal.exr */ = {isa = PBXFileReference; lastKnownFileType = file; path = GrayRampsHorizontal.exr; sourceTree = "<group>"; };
+		C6BCFF99267587BF00F791EF /* EDRDisplayEnabler.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EDRDisplayEnabler.h; sourceTree = "<group>"; };
+		C6BCFF9A267587BF00F791EF /* EDRDisplayEnabler.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EDRDisplayEnabler.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C67B88AB267576DE00CAF2D1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C67B88A5267576DE00CAF2D1 = {
+			isa = PBXGroup;
+			children = (
+				C67B88B0267576DE00CAF2D1 /* MetalEDR-iOS */,
+				C67B88AF267576DE00CAF2D1 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C67B88AF267576DE00CAF2D1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C67B88AE267576DE00CAF2D1 /* MetalEDR-iOS.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C67B88B0267576DE00CAF2D1 /* MetalEDR-iOS */ = {
+			isa = PBXGroup;
+			children = (
+				C6BCFF972675874500F791EF /* GrayRampsHorizontal.exr */,
+				C6BCFF91267586FC00F791EF /* EDRImageShaders.metal */,
+				C6BCFF94267586FC00F791EF /* EDRImageShaderTypes.h */,
+				C6BCFF92267586FC00F791EF /* EDRImageView.h */,
+				C6BCFF93267586FC00F791EF /* EDRImageView.m */,
+				C6BCFF99267587BF00F791EF /* EDRDisplayEnabler.h */,
+				C6BCFF9A267587BF00F791EF /* EDRDisplayEnabler.m */,
+				C67B88B1267576DE00CAF2D1 /* AppDelegate.h */,
+				C67B88B2267576DE00CAF2D1 /* AppDelegate.m */,
+				C67B88B4267576DE00CAF2D1 /* SceneDelegate.h */,
+				C67B88B5267576DE00CAF2D1 /* SceneDelegate.m */,
+				C67B88B7267576DE00CAF2D1 /* ViewController.h */,
+				C67B88B8267576DE00CAF2D1 /* ViewController.m */,
+				C67B88BA267576DE00CAF2D1 /* Main.storyboard */,
+				C67B88BD267576DF00CAF2D1 /* Assets.xcassets */,
+				C67B88BF267576DF00CAF2D1 /* LaunchScreen.storyboard */,
+				C67B88C2267576DF00CAF2D1 /* Info.plist */,
+				C67B88C3267576DF00CAF2D1 /* main.m */,
+			);
+			path = "MetalEDR-iOS";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C67B88AD267576DE00CAF2D1 /* MetalEDR-iOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C67B88C7267576DF00CAF2D1 /* Build configuration list for PBXNativeTarget "MetalEDR-iOS" */;
+			buildPhases = (
+				C67B88AA267576DE00CAF2D1 /* Sources */,
+				C67B88AB267576DE00CAF2D1 /* Frameworks */,
+				C67B88AC267576DE00CAF2D1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "MetalEDR-iOS";
+			productName = "MetalEDR-iOS";
+			productReference = C67B88AE267576DE00CAF2D1 /* MetalEDR-iOS.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C67B88A6267576DE00CAF2D1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1250;
+				TargetAttributes = {
+					C67B88AD267576DE00CAF2D1 = {
+						CreatedOnToolsVersion = 12.5;
+					};
+				};
+			};
+			buildConfigurationList = C67B88A9267576DE00CAF2D1 /* Build configuration list for PBXProject "MetalEDR-iOS" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C67B88A5267576DE00CAF2D1;
+			productRefGroup = C67B88AF267576DE00CAF2D1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C67B88AD267576DE00CAF2D1 /* MetalEDR-iOS */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C67B88AC267576DE00CAF2D1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C6BCFF982675874500F791EF /* GrayRampsHorizontal.exr in Resources */,
+				C67B88C1267576DF00CAF2D1 /* LaunchScreen.storyboard in Resources */,
+				C67B88BE267576DF00CAF2D1 /* Assets.xcassets in Resources */,
+				C67B88BC267576DE00CAF2D1 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C67B88AA267576DE00CAF2D1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C67B88B9267576DE00CAF2D1 /* ViewController.m in Sources */,
+				C6BCFF95267586FC00F791EF /* EDRImageShaders.metal in Sources */,
+				C67B88B3267576DE00CAF2D1 /* AppDelegate.m in Sources */,
+				C67B88C4267576DF00CAF2D1 /* main.m in Sources */,
+				C6BCFF9B267587BF00F791EF /* EDRDisplayEnabler.m in Sources */,
+				C67B88B6267576DE00CAF2D1 /* SceneDelegate.m in Sources */,
+				C6BCFF96267586FC00F791EF /* EDRImageView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		C67B88BA267576DE00CAF2D1 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C67B88BB267576DE00CAF2D1 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		C67B88BF267576DF00CAF2D1 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C67B88C0267576DF00CAF2D1 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C67B88C5267576DF00CAF2D1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		C67B88C6267576DF00CAF2D1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C67B88C8267576DF00CAF2D1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = DMJXDB9H6Q;
+				INFOPLIST_FILE = "MetalEDR-iOS/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.wutian.MetalEDR-iOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C67B88C9267576DF00CAF2D1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = DMJXDB9H6Q;
+				INFOPLIST_FILE = "MetalEDR-iOS/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.wutian.MetalEDR-iOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C67B88A9267576DE00CAF2D1 /* Build configuration list for PBXProject "MetalEDR-iOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C67B88C5267576DF00CAF2D1 /* Debug */,
+				C67B88C6267576DF00CAF2D1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C67B88C7267576DF00CAF2D1 /* Build configuration list for PBXNativeTarget "MetalEDR-iOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C67B88C8267576DF00CAF2D1 /* Debug */,
+				C67B88C9267576DF00CAF2D1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C67B88A6267576DE00CAF2D1 /* Project object */;
+}
