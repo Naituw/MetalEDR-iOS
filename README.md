@@ -1,7 +1,7 @@
 # MetalEDR-iOS
 Demo of using Metal to render EDR/HDR content on iOS platform.
 
-https://user-images.githubusercontent.com/353943/121794328-c679b800-cc39-11eb-8a9b-c8a7de5d53f6.mov
+![screenshot](https://user-images.githubusercontent.com/353943/121794490-258bfc80-cc3b-11eb-9efe-28ebc1e430c3.gif)
 
 ## How it works
 
